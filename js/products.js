@@ -1,43 +1,393 @@
-// Edit this catalog to change product names, descriptions, prices, sizes, yarns and images.
+// Nina Crochet product catalog — photographs are grouped by distinct product.
 const PRODUCTS = [
-['Cozy Amethyst Sweater','Sweaters','A relaxed open-stitch sweater in a rich amethyst shade.',850,'M','Acrylic',1],
-['Blush Petal Crop Top','Tops','A delicate floral-look summer top with a soft tie detail.',650,'S','Cotton',2],
-['Ivory Button Cardigan','Cardigans','A timeless cream cardigan with textured sleeves and buttons.',950,'M','Cotton blend',3],
-['Sage Garden Dress','Dresses','A romantic green crochet dress with a softly shaped waist.',1450,'M','Cotton',4],
-['Granny Square Tote','Bags','A colorful everyday tote made from cheerful granny squares.',700,'One Size','Acrylic',5],
-['Daisy Bucket Hat','Accessories','A lightweight cream hat finished with a purple crochet flower.',420,'One Size','Cotton',6],
-['Rosebud Scarf','Accessories','A cozy textured scarf in dusty rose with playful fringe.',480,'One Size','Wool blend',7],
-['Patchwork Market Bag','Bags','A roomy multicolor bag for market days and everyday use.',760,'One Size','Cotton',8],
-['Plum Circle Skirt','Skirts','A flowing crochet skirt with a comfortable drawstring waist.',980,'M','Cotton',9],
-['Sunbeam Halter Top','Tops','A warm ivory halter top with a flower-inspired center.',590,'S','Cotton',10],
-['Pastel Granny Blanket','Home Decor','A soft patchwork throw made for a cozy corner.',1250,'One Size','Acrylic',11],
-['Crochet Flower Clips','Accessories','A set of handmade flower clips in soft coordinating colors.',260,'One Size','Cotton',12],
-['Daisy Cushion Cover','Home Decor','A textured cushion cover with a raised floral motif.',520,'One Size','Cotton',13],
-['Little Honey Bear','Plushies','A sweet handmade amigurumi-style teddy bear.',390,'One Size','Acrylic',14],
-['Lace Sleeve Shrug','Cardigans','A light ivory shrug with scalloped edges and open lacework.',820,'M','Cotton',15],
-['Color Pop Tote','Bags','A bright striped crochet tote with sturdy shoulder handles.',680,'One Size','Cotton',16],
-['Lavender Cloud Pullover','Sweaters','A soft pullover with a relaxed fit and delicate stitch texture.',920,'L','Acrylic',1],
-['Petal Tie Bralette','Tops','A feminine tie-front crochet top for warm-weather outfits.',560,'S','Cotton',2],
-['Sunday Cream Cardigan','Cardigans','An easy layering cardigan with a clean button front.',990,'L','Cotton blend',3],
-['Meadow Mini Dress','Dresses','A playful handmade dress with a gently flared skirt.',1380,'S','Cotton',4],
-['Violet Bloom Purse','Bags','A small statement purse with colorful granny-square flowers.',540,'One Size','Acrylic',5],
-['Cloud Nine Sun Hat','Accessories','A breezy crochet sun hat for sunny afternoons.',440,'One Size','Cotton',6],
-['Petal Fringe Wrap','Accessories','A soft wrap scarf with decorative fringe at both ends.',620,'One Size','Wool blend',7],
-['Weekend Granny Tote','Bags','A roomy tote with a cheerful patchwork finish.',740,'One Size','Cotton',8],
-['Berry Stitch Skirt','Skirts','A deep berry skirt with a textured stitch pattern.',1020,'M','Cotton',9],
-['Daisy Day Top','Tops','A simple floral crochet top with a comfortable fit.',610,'M','Cotton',10],
-['Blossom Baby Blanket','Home Decor','A gentle pastel blanket for a nursery or a thoughtful gift.',1180,'One Size','Acrylic',11],
-['Tiny Bloom Brooch Set','Accessories','Handmade crochet flowers to brighten bags and jackets.',240,'One Size','Cotton',12],
-['Petal Pop Pillow','Home Decor','A decorative pillow cover with dimensional crochet flowers.',560,'One Size','Cotton',13],
-['Cocoa Crochet Bear','Plushies','A cuddly-looking bear made with soft textured yarn.',410,'One Size','Acrylic',14],
-['Soft Edge Bolero','Cardigans','A cropped open-front layer with delicate scalloped edging.',790,'S','Cotton',15],
-['Festival Stripe Bag','Bags','A colorful shoulder bag with a handmade striped design.',720,'One Size','Cotton',16],
-['Midnight Garden Sweater','Sweaters','A statement sweater with a rich, textured crochet finish.',1080,'XL','Wool blend',1],
-['Cherry Blossom Top','Tops','A bright pink top with a delicate openwork pattern.',640,'L','Cotton',2],
-['Vanilla Cloud Cardigan','Cardigans','A soft neutral cardigan for easy everyday layering.',1040,'XL','Acrylic',3],
-['Rosewater Crochet Dress','Dresses','A graceful handmade dress with a romantic silhouette.',1520,'L','Cotton',4],
-['Flower Patch Crossbody','Bags','A compact crossbody bag with playful crochet flowers.',590,'One Size','Cotton',5],
-['Garden Party Hat','Accessories','A sweet brimmed hat with a little handmade flower accent.',460,'One Size','Cotton',6],
-['Cozy Loop Scarf','Accessories','A warm, textured scarf designed for cool-weather comfort.',510,'One Size','Wool blend',7],
-['Nina Signature Tote','Bags','A signature colorful crochet tote for everyday adventures.',820,'One Size','Cotton',8]
-].map((p,i)=>({id:i+1,name:p[0],category:p[1],description:p[2],price:p[3],size:p[4],yarn:p[5],image:`assets/products/crochet-${String(p[6]).padStart(2,'0')}.webp`}));
+  {
+    "id": 1001,
+    "name": "Sage Green Crochet Sweater",
+    "category": "Sweaters",
+    "description": "Handmade crochet sweater.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_111408.jpg",
+    "images": [
+      "assets/gallery/20261123_111408.jpg",
+      "assets/gallery/file_00000000f190820ba0e477325a953996.png"
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "Brown Textured Short-Sleeve Top",
+    "category": "Tops",
+    "description": "Handmade crochet top.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_112847.jpg",
+    "images": [
+      "assets/gallery/20261123_112847.jpg"
+    ]
+  },
+  {
+    "id": 1003,
+    "name": "Brown Textured Long-Sleeve Sweater",
+    "category": "Sweaters",
+    "description": "Handmade crochet sweater.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_113445.jpg",
+    "images": [
+      "assets/gallery/20261123_113445.jpg"
+    ]
+  },
+  {
+    "id": 1004,
+    "name": "Blue and Rust Crochet Sweater",
+    "category": "Sweaters",
+    "description": "Handmade crochet sweater.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_113846.jpg",
+    "images": [
+      "assets/gallery/20261123_113846.jpg",
+      "assets/gallery/20261123_114230.jpg"
+    ]
+  },
+  {
+    "id": 1005,
+    "name": "Brown Striped Cardigan",
+    "category": "Cardigans",
+    "description": "Handmade crochet cardigan or outer layer.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_115301.jpg",
+    "images": [
+      "assets/gallery/20261123_115301.jpg",
+      "assets/gallery/20261123_115353.jpg"
+    ]
+  },
+  {
+    "id": 1006,
+    "name": "Light Grey Crochet Sweater",
+    "category": "Sweaters",
+    "description": "Handmade crochet sweater.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_120342.jpg",
+    "images": [
+      "assets/gallery/20261123_120342.jpg",
+      "assets/gallery/20261123_120455.jpg"
+    ]
+  },
+  {
+    "id": 1007,
+    "name": "Pink and Purple Patchwork Cardigan",
+    "category": "Cardigans",
+    "description": "Handmade crochet cardigan or outer layer.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_120724.jpg",
+    "images": [
+      "assets/gallery/20261123_120724.jpg",
+      "assets/gallery/20261123_120810.jpg",
+      "assets/gallery/20261123_121052.jpg",
+      "assets/gallery/20261123_121313.jpg"
+    ]
+  },
+  {
+    "id": 1008,
+    "name": "Black Textured Scarf",
+    "category": "Accessories",
+    "description": "Handmade crochet accessory.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_121422.jpg",
+    "images": [
+      "assets/gallery/20261123_121422.jpg"
+    ]
+  },
+  {
+    "id": 1009,
+    "name": "Burgundy Crochet Scarf",
+    "category": "Accessories",
+    "description": "Handmade crochet accessory.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_121656.jpg",
+    "images": [
+      "assets/gallery/20261123_121656.jpg"
+    ]
+  },
+  {
+    "id": 1010,
+    "name": "Burgundy Cropped Sweater",
+    "category": "Sweaters",
+    "description": "Handmade crochet sweater.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_121748.jpg",
+    "images": [
+      "assets/gallery/20261123_121748.jpg"
+    ]
+  },
+  {
+    "id": 1011,
+    "name": "Blue Striped Crochet Vest",
+    "category": "Tops",
+    "description": "Handmade crochet top.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_121905.jpg",
+    "images": [
+      "assets/gallery/20261123_121905.jpg",
+      "assets/gallery/20261123_121956.jpg",
+      "assets/gallery/20261123_122054.jpg"
+    ]
+  },
+  {
+    "id": 1012,
+    "name": "Black Button Cardigan",
+    "category": "Cardigans",
+    "description": "Handmade crochet cardigan or outer layer.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_122154.jpg",
+    "images": [
+      "assets/gallery/20261123_122154.jpg",
+      "assets/gallery/20261123_122323.jpg"
+    ]
+  },
+  {
+    "id": 1013,
+    "name": "Brown Crochet Long Cardigan",
+    "category": "Cardigans",
+    "description": "Handmade crochet cardigan or outer layer.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_122449.jpg",
+    "images": [
+      "assets/gallery/20261123_122449.jpg",
+      "assets/gallery/20261123_122522.jpg",
+      "assets/gallery/20261123_122605.jpg"
+    ]
+  },
+  {
+    "id": 1014,
+    "name": "Grey Crochet Cardigan",
+    "category": "Cardigans",
+    "description": "Handmade crochet cardigan or outer layer.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_122707.jpg",
+    "images": [
+      "assets/gallery/20261123_122707.jpg",
+      "assets/gallery/20261123_122908.jpg"
+    ]
+  },
+  {
+    "id": 1015,
+    "name": "Black and White Patterned Cardigan",
+    "category": "Cardigans",
+    "description": "Handmade crochet cardigan or outer layer.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_123104.jpg",
+    "images": [
+      "assets/gallery/20261123_123104.jpg",
+      "assets/gallery/20261123_123419.jpg"
+    ]
+  },
+  {
+    "id": 1016,
+    "name": "Brown Textured Long Coat",
+    "category": "Cardigans",
+    "description": "Handmade crochet cardigan or outer layer.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_123758.jpg",
+    "images": [
+      "assets/gallery/20261123_123758.jpg",
+      "assets/gallery/20261123_123845.jpg"
+    ]
+  },
+  {
+    "id": 1017,
+    "name": "Olive Green Openwork Sweater",
+    "category": "Sweaters",
+    "description": "Handmade crochet sweater.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_124007.jpg",
+    "images": [
+      "assets/gallery/20261123_124007.jpg",
+      "assets/gallery/20261123_124128.jpg"
+    ]
+  },
+  {
+    "id": 1018,
+    "name": "Blue Crochet Basket",
+    "category": "Home Decor",
+    "description": "Handmade crochet home decor.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_124459.jpg",
+    "images": [
+      "assets/gallery/20261123_124459.jpg",
+      "assets/gallery/20261123_124506.jpg"
+    ]
+  },
+  {
+    "id": 1019,
+    "name": "Red and Yellow Crochet Centerpiece",
+    "category": "Home Decor",
+    "description": "Handmade crochet home decor.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_124625.jpg",
+    "images": [
+      "assets/gallery/20261123_124625.jpg"
+    ]
+  },
+  {
+    "id": 1020,
+    "name": "Black Mini Crochet Bag",
+    "category": "Bags",
+    "description": "Handmade crochet bag.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_124741.jpg",
+    "images": [
+      "assets/gallery/20261123_124741.jpg",
+      "assets/gallery/20261123_124805.jpg",
+      "assets/gallery/20261123_124807.jpg"
+    ]
+  },
+  {
+    "id": 1021,
+    "name": "Brown Crochet Handbag",
+    "category": "Bags",
+    "description": "Handmade crochet bag.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_124852.jpg",
+    "images": [
+      "assets/gallery/20261123_124852.jpg",
+      "assets/gallery/20261123_124900.jpg"
+    ]
+  },
+  {
+    "id": 1022,
+    "name": "Brown Crochet Basket Bag",
+    "category": "Bags",
+    "description": "Handmade crochet bag.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_125001.jpg",
+    "images": [
+      "assets/gallery/20261123_125001.jpg"
+    ]
+  },
+  {
+    "id": 1023,
+    "name": "Grey Ribbed Crochet Sweater",
+    "category": "Sweaters",
+    "description": "Handmade crochet sweater.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_125124.jpg",
+    "images": [
+      "assets/gallery/20261123_125124.jpg",
+      "assets/gallery/20261123_125205.jpg"
+    ]
+  },
+  {
+    "id": 1024,
+    "name": "Turquoise Button Vest",
+    "category": "Tops",
+    "description": "Handmade crochet top.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_125306.jpg",
+    "images": [
+      "assets/gallery/20261123_125306.jpg",
+      "assets/gallery/20261123_125334.jpg"
+    ]
+  },
+  {
+    "id": 1025,
+    "name": "Grey Sleeveless Crochet Top",
+    "category": "Tops",
+    "description": "Handmade crochet top.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/20261123_125529.jpg",
+    "images": [
+      "assets/gallery/20261123_125529.jpg",
+      "assets/gallery/20261123_125553.jpg"
+    ]
+  },
+  {
+    "id": 1026,
+    "name": "Red and Yellow Round Table Mats",
+    "category": "Home Decor",
+    "description": "Handmade crochet home decor.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/circle table1.jpg",
+    "images": [
+      "assets/gallery/circle table1.jpg",
+      "assets/gallery/circle table2.jpg"
+    ]
+  },
+  {
+    "id": 1027,
+    "name": "Pink Fringed Crochet Scarf",
+    "category": "Accessories",
+    "description": "Handmade crochet accessory.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/scarf1.jpg",
+    "images": [
+      "assets/gallery/scarf1.jpg",
+      "assets/gallery/scarf2.jpg"
+    ]
+  },
+  {
+    "id": 1028,
+    "name": "Black and White Crochet Table Decor",
+    "category": "Home Decor",
+    "description": "Handmade crochet home decor.",
+    "price": null,
+    "size": "Not specified",
+    "yarn": "Not specified",
+    "image": "assets/gallery/table decor1.jpg",
+    "images": [
+      "assets/gallery/table decor1.jpg",
+      "assets/gallery/table decor2.jpg"
+    ]
+  }
+];
