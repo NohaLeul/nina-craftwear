@@ -1,14 +1,37 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://ninacrochet.com/</loc>
-    <priority>1.0</priority>
+    <loc>https://ninacraftwear.com/</loc>
   </url>
 
   <url>
-    <loc>https://ninacrochet.com/shop.html</loc>
-    <priority>0.8</priority>
+    <loc>https://ninacraftwear.com/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ninacraftwear.com/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ninacraftwear.com/shop.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ninacraftwear.com/testimonials.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ninacraftwear.com/tutorials.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ninacraftwear.com/privacy.html</loc>
+  </url>
+
+  <url>
+    <loc>https://ninacraftwear.com/terms.html</loc>
   </url>
 
 </urlset>
