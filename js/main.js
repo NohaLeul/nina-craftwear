@@ -11,10 +11,10 @@
  const slides=[...document.querySelectorAll('.hero-slide')]; if(slides.length>1){let i=0;setInterval(()=>{slides[i].classList.remove('active');i=(i+1)%slides.length;slides[i].classList.add('active');},5200);}
  window.NinaEmail = window.NinaEmail || {};
  window.NinaEmail.openCompose = function(subject, body){
-  const url = `https://mail.google.com/mail/?view=cm&fs=1&to=netsizeru2@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const url = `https://mail.google.com/mail/?view=cm&fs=1&to=craftwearbynina@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   const opened = window.open(url, '_blank');
   if (!opened) window.location.assign(url);
  };
- const form=$('[data-contact-form]');if(form)form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const body=`Name: ${d.get('name')}\nEmail: ${d.get('email')}\nMessage:\n${d.get('message')}`;window.NinaEmail.openCompose('Nina Crochet website enquiry', body);});
+ const form=$('[data-contact-form]');if(form)form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const body=`Name: ${d.get('name')}\nEmail: ${d.get('email')}\nMessage:\n${d.get('message')}`;window.NinaEmail.openCompose('Craftwear by Nina website enquiry', body);});
  const newsletter=$('[data-newsletter]');if(newsletter)newsletter.addEventListener('submit',e=>{e.preventDefault();alert('Thank you! Newsletter signup is a front-end demo. Connect an email service to collect subscriptions.');});
 })();

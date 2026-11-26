@@ -1,4 +1,4 @@
-// Nina Crochet product catalog — photographs are grouped by distinct product.
+// Craftwear by Nina product catalog — supplied product photographs grouped by product.
 const PRODUCTS = [
   {
     "id": 1001,
@@ -24,8 +24,7 @@ const PRODUCTS = [
     "yarn": "Not specified",
     "image": "assets/gallery/20261123_112847.jpg",
     "images": [
-      "assets/gallery/20261123_112847.jpg",
-      "assets/gallery/table decor2DDD.jpg"
+      "assets/gallery/20261123_112847.jpg"
     ]
   },
   {
@@ -38,8 +37,7 @@ const PRODUCTS = [
     "yarn": "Not specified",
     "image": "assets/gallery/20261123_113445.jpg",
     "images": [
-      "assets/gallery/20261123_113445.jpg",
-      "assets/gallery/table decor2DDD.jpg"
+      "assets/gallery/20261123_113445.jpg"
     ]
   },
   {
@@ -103,43 +101,40 @@ const PRODUCTS = [
   {
     "id": 1008,
     "name": "Black Textured table decor",
-    "category": "Accessories",
+    "category": "Home Decor",
     "description": "Handmade crochet accessory.",
     "price": 3000,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/20261123_121422.jpg",
     "images": [
-      "assets/gallery/20261123_121422.jpg",
-      "assets/gallery/table decor2DDD.jpg"
+      "assets/gallery/20261123_121422.jpg"
     ]
   },
   {
     "id": 1009,
     "name": "Burgundy Crochet Crop",
-    "category": "Accessories",
+    "category": "Tops",
     "description": "Handmade crochet accessory.",
     "price": 1500,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/20261123_121656.jpg",
     "images": [
-      "assets/gallery/20261123_121656.jpg",
-      "assets/gallery/table decor2DDD.jpg"
+      "assets/gallery/20261123_121656.jpg"
     ]
   },
   {
     "id": 1010,
     "name": "Burgundy Cropped Sweater",
-    "category": "Sweaters",
+    "category": "Tops",
     "description": "Handmade crochet sweater.",
     "price": 1500,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/20261123_121748.jpg",
     "images": [
-      "assets/gallery/20261123_121748.jpg",
-      "assets/gallery/table decor2DDD.jpg"
+      "assets/gallery/20261123_121748.jpg"
     ]
   },
   {
@@ -174,7 +169,7 @@ const PRODUCTS = [
   {
     "id": 1013,
     "name": "Men's Brown Stripe Collared-shirt",
-    "category": "Cardigans",
+    "category": "Tops",
     "description": "Handmade crochet cardigan or outer layer.",
     "price": 3500,
     "size": "Not specified",
@@ -266,8 +261,7 @@ const PRODUCTS = [
     "yarn": "Not specified",
     "image": "assets/gallery/20261123_124625.jpg",
     "images": [
-      "assets/gallery/20261123_124625.jpg",
-      "assets/gallery/table decor2DDD.jpg"
+      "assets/gallery/20261123_124625.jpg"
     ]
   },
   {
@@ -302,15 +296,14 @@ const PRODUCTS = [
   {
     "id": 1022,
     "name": "Brown Crochet Basket Bag",
-    "category": "Bags",
+    "category": "Home Decor",
     "description": "Handmade crochet bag.",
     "price": 1800,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/20261123_125001.jpg",
     "images": [
-      "assets/gallery/20261123_125001.jpg",
-      "assets/gallery/table decor2DDD.jpg"
+      "assets/gallery/20261123_125001.jpg"
     ]
   },
   {
@@ -397,135 +390,126 @@ const PRODUCTS = [
       "assets/gallery/table decor2.jpg"
     ]
   },
-    {
+  {
     "id": 10132,
-    "name": "black-button-front-crochet-cardigan",
-    "category": "Home Decor",
+    "name": "Black Button Front Crochet Cardigan",
+    "category": "Cardigans",
     "description": "Handmade crochet black-button-front-crochet-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/black-button-front-crochet-cardigan.jpg",
     "images": [
-      "assets/gallery/black-button-front-crochet-cardigan.jpg",
-      "assets/gallery/table desdsasacor2.jpg"
+      "assets/gallery/black-button-front-crochet-cardigan.jpg"
     ]
   },
-    {
+  {
     "id": 1333,
-    "name": "black-cream-checkered-crochet-vest",
-    "category": "Home Decor",
+    "name": "Black Cream Checkered Crochet Vest",
+    "category": "Tops",
     "description": "Handmade crochet black-cream-checkered-crochet-vest.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/black-cream-checkered-crochet-vest.jpg",
     "images": [
-      "assets/gallery/black-cream-checkered-crochet-vest.jpg",
-      "assets/gallery/table decodsdsr2.jpg"
+      "assets/gallery/black-cream-checkered-crochet-vest.jpg"
     ]
   },
-    {
+  {
     "id": 1228,
-    "name": "black-gray-striped-crochet-cardigan",
-    "category": "Home Decor",
+    "name": "Black Gray Striped Crochet Cardigan",
+    "category": "Cardigans",
     "description": "Handmade crochet black-gray-striped-crochet-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/black-gray-striped-crochet-cardigan.jpg",
     "images": [
-      "assets/gallery/black-gray-striped-crochet-cardigan.jpg",
-      "assets/gallery/tableertyu decor2.jpg"
+      "assets/gallery/black-gray-striped-crochet-cardigan.jpg"
     ]
   },
-    {
+  {
     "id": 1876,
-    "name": "black-hooded-crochet-sweater",
-    "category": "Home Decor",
+    "name": "Black Hooded Crochet Sweater",
+    "category": "Sweaters",
     "description": "Handmade crochet black-hooded-crochet-sweater.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/black-hooded-crochet-sweater.jpg",
     "images": [
-      "assets/gallery/black-hooded-crochet-sweater.jpg",
-      "assets/gallery/table dedwqacor2.jpg"
+      "assets/gallery/black-hooded-crochet-sweater.jpg"
     ]
   },
-    {
+  {
     "id": 1574,
-    "name": "black-long-sleeve-crochet-cardigan",
-    "category": "Home Decor",
+    "name": "Black Long Sleeve Crochet Cardigan",
+    "category": "Cardigans",
     "description": "Handmade crochet black-long-sleeve-crochet-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/black-long-sleeve-crochet-cardigan.jpg",
     "images": [
-      "assets/gallery/black-long-sleeve-crochet-cardigan.jpg",
-      "assets/gallery/table decdssssor2.jpg"
+      "assets/gallery/black-long-sleeve-crochet-cardigan.jpg"
     ]
   },
-    {
+  {
     "id": 1909,
-    "name": "blue-baby-crochet-romper-and-hat-set",
-    "category": "Home Decor",
+    "name": "Blue Baby Crochet Romper And Hat Set",
+    "category": "Accessories",
     "description": "Handmade crochet blue-baby-crochet-romper-and-hat-set.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/blue-baby-crochet-romper-and-hat-set.jpg",
     "images": [
-      "assets/gallery/blue-baby-crochet-romper-and-hat-set.jpg",
-      "assets/gallery/table devvvdddcor2.jpg"
+      "assets/gallery/blue-baby-crochet-romper-and-hat-set.jpg"
     ]
   },
-    {
+  {
     "id": 1000,
-    "name": "blue-heart-applique-crochet-cardigan",
-    "category": "Home Decor",
+    "name": "Blue Heart Applique Crochet Cardigan",
+    "category": "Cardigans",
     "description": "Handmade crochet blue-heart-applique-crochet-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/blue-heart-applique-crochet-cardigan.jpg",
     "images": [
-      "assets/gallery/blue-heart-applique-crochet-cardigan.jpg",
-      "assets/gallery/tablsewse decor2.jpg"
+      "assets/gallery/blue-heart-applique-crochet-cardigan.jpg"
     ]
   },
-    {
+  {
     "id": 2000,
-    "name": "blue-textured-crochet-sweater",
-    "category": "Home Decor",
+    "name": "Blue Textured Crochet Sweater",
+    "category": "Sweaters",
     "description": "Handmade crochet blue-textured-crochet-sweater.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/blue-textured-crochet-sweater.jpg",
     "images": [
-      "assets/gallery/blue-textured-crochet-sweater.jpg",
-      "assets/gallery/table decdvddor2.jpg"
+      "assets/gallery/blue-textured-crochet-sweater.jpg"
     ]
   },
-    {
+  {
     "id": 1100,
-    "name": "brown-textured-crochet-cardigan",
-    "category": "Home Decor",
+    "name": "Brown Textured Crochet Cardigan",
+    "category": "Cardigans",
     "description": "Handmade brown-textured-crochet-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/brown-textured-crochet-cardigan.webp",
     "images": [
-      "assets/gallery/brown-textured-crochet-cardigan.webp",
-      "assets/gallery/table decor2DDD.jpg"
+      "assets/gallery/brown-textured-crochet-cardigan.webp"
     ]
   },
-    {
+  {
     "id": 1111,
-    "name": "brown-crochet-storage-basket",
+    "name": "Brown Crochet Storage Basket",
     "category": "Home Decor",
     "description": "Handmade brown-crochet-storage-basket.",
     "price": 2300,
@@ -537,214 +521,199 @@ const PRODUCTS = [
       "assets/gallery/brown-crochet-storage-basket.jpg"
     ]
   },
-    {
+  {
     "id": 1110,
-    "name": "burgundy-openwork-crochet-sweater",
-    "category": "Home Decor",
+    "name": "Burgundy Openwork Crochet Sweater",
+    "category": "Sweaters",
     "description": "Handmade crochet burgundy-openwork-crochet-sweater.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/burgundy-openwork-crochet-sweater.jpg",
     "images": [
-      "assets/gallery/burgundy-openwork-crochet-sweater.jpg",
-      "assets/gallery/table decor2DD.jpg"
+      "assets/gallery/burgundy-openwork-crochet-sweater.jpg"
     ]
   },
-    {
+  {
     "id": 1010,
-    "name": "cream-brown-baby-cardigan-with-headband",
-    "category": "Home Decor",
+    "name": "Cream Brown Baby Cardigan With Headband",
+    "category": "Cardigans",
     "description": "Handmade crochet cream-brown-baby-cardigan-with-headband.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/cream-brown-baby-cardigan-with-headband.jpg",
     "images": [
-      "assets/gallery/cream-brown-baby-cardigan-with-headband.jpg",
-      "assets/gallery/table decor2DDDDDD.jpg"
+      "assets/gallery/cream-brown-baby-cardigan-with-headband.jpg"
     ]
   },
-    {
+  {
     "id": 1666,
-    "name": "dark-brown-long-sleeve-cardigan",
-    "category": "Home Decor",
+    "name": "Dark Brown Long Sleeve Cardigan",
+    "category": "Cardigans",
     "description": "Handmade crochet dark-brown-long-sleeve-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/dark-brown-long-sleeve-cardigan.jpg",
     "images": [
-      "assets/gallery/dark-brown-long-sleeve-cardigan.jpg",
-      "assets/gallery/table decor2DDDD.jpg"
+      "assets/gallery/dark-brown-long-sleeve-cardigan.jpg"
     ]
   },
-    {
+  {
     "id": 1998,
-    "name": "lavender-short-sleeve-crochet-top",
-    "category": "Home Decor",
+    "name": "Lavender Short Sleeve Crochet Top",
+    "category": "Tops",
     "description": "Handmade crochet lavender-short-sleeve-crochet-top.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/lavender-short-sleeve-crochet-top.jpg",
     "images": [
-      "assets/gallery/lavender-short-sleeve-crochet-top.jpg",
-      "assets/gallery/light-blue-short-sleeve-crochet-top.jpg"
+      "assets/gallery/lavender-short-sleeve-crochet-top.jpg"
     ]
   },
-    {
+  {
     "id": 1227,
-    "name": "light-gray-hooded-crochet-sweater",
-    "category": "Home Decor",
+    "name": "Light Gray Hooded Crochet Sweater",
+    "category": "Sweaters",
     "description": "Handmade crochet light-gray-hooded-crochet-sweater.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/light-gray-hooded-crochet-sweater.jpg",
     "images": [
-      "assets/gallery/light-gray-hooded-crochet-sweater.jpg",
-      "assets/gallery/table decor2DDDDDDDDD.jpg"
+      "assets/gallery/light-gray-hooded-crochet-sweater.jpg"
     ]
   },
-    {
+  {
     "id": 1108,
-    "name": "navy-blue-ribbed-crochet-sweater",
-    "category": "Home Decor",
+    "name": "Navy Blue Ribbed Crochet Sweater",
+    "category": "Sweaters",
     "description": "Handmade crochet navy-blue-ribbed-crochet-sweater.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/navy-blue-ribbed-crochet-sweater.jpg",
     "images": [
-      "assets/gallery/navy-blue-ribbed-crochet-sweater.jpg",
-      "assets/gallery/table decor2SSS.jpg"
+      "assets/gallery/navy-blue-ribbed-crochet-sweater.jpg"
     ]
   },
-    {
+  {
     "id": 1897,
-    "name": "olive-green-crochet-crop-top",
-    "category": "Home Decor",
+    "name": "Olive Green Crochet Crop Top",
+    "category": "Tops",
     "description": "Handmade crochet olive-green-crochet-crop-top.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/olive-green-crochet-crop-top.jpg",
     "images": [
-      "assets/gallery/olive-green-crochet-crop-top.jpg",
-      "assets/gallery/table decorAAAAA2.jpg"
+      "assets/gallery/olive-green-crochet-crop-top.jpg"
     ]
   },
-    {
+  {
     "id": 2500,
-    "name": "periwinkle-blue-crochet-cardigan",
-    "category": "Home Decor",
+    "name": "Periwinkle Blue Crochet Cardigan",
+    "category": "Cardigans",
     "description": "Handmade crochet periwinkle-blue-crochet-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/periwinkle-blue-crochet-cardigan.jpg",
     "images": [
-      "assets/gallery/periwinkle-blue-crochet-cardigan.jpg",
-      "assets/gallery/table decor2DSDS.jpg"
+      "assets/gallery/periwinkle-blue-crochet-cardigan.jpg"
     ]
   },
-    {
+  {
     "id": 9808,
-    "name": "pink-blue-multicolor-crochet-cardigan",
-    "category": "Home Decor",
+    "name": "Pink Blue Multicolor Crochet Cardigan",
+    "category": "Cardigans",
     "description": "Handmade crochetpink-blue-multicolor-crochet-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/pink-blue-multicolor-crochet-cardigan.jpg",
     "images": [
-      "assets/gallery/pink-blue-multicolor-crochet-cardigan.jpg",
-      "assets/gallery/table decorDADAAF2.jpg"
+      "assets/gallery/pink-blue-multicolor-crochet-cardigan.jpg"
     ]
   },
-    {
+  {
     "id": 9807,
-    "name": "pink-burgundy-baby-crochet-sweater",
-    "category": "Home Decor",
+    "name": "Pink Burgundy Baby Crochet Sweater",
+    "category": "Sweaters",
     "description": "Handmade crochet pink-burgundy-baby-crochet-sweater.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/pink-burgundy-baby-crochet-sweater.jpg",
     "images": [
-      "assets/gallery/pink-burgundy-baby-crochet-sweater.jpg",
-      "assets/gallery/tablDDDDe decor2.jpg"
+      "assets/gallery/pink-burgundy-baby-crochet-sweater.jpg"
     ]
   },
-    {
+  {
     "id": 9804,
-    "name": "purple-multicolor-baby-crochet-sweater",
-    "category": "Home Decor",
+    "name": "Purple Multicolor Baby Crochet Sweater",
+    "category": "Sweaters",
     "description": "Handmade crochet purple-multicolor-baby-crochet-sweater.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/purple-multicolor-baby-crochet-sweater.jpg",
     "images": [
-      "assets/gallery/purple-multicolor-baby-crochet-sweater.jpg",
-      "assets/gallery/taSSSSSSSSSSble decor2.jpg"
+      "assets/gallery/purple-multicolor-baby-crochet-sweater.jpg"
     ]
   },
-    {
+  {
     "id": 7600,
-    "name": "purple-pink-blue-baby-crochet-sweater",
-    "category": "Home Decor",
+    "name": "Purple Pink Blue Baby Crochet Sweater",
+    "category": "Sweaters",
     "description": "purple-pink-blue-baby-crochet-sweater.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/purple-pink-blue-baby-crochet-sweater.jpg",
     "images": [
-      "assets/gallery/purple-pink-blue-baby-crochet-sweaterSASASA.jpg",
-      "assets/gallery/tableSASASA decor2.jpg"
+      "assets/gallery/purple-pink-blue-baby-crochet-sweater.jpg"
     ]
   },
-    {
+  {
     "id": 5400,
-    "name": "purple-white-long-crochet-cardigan",
-    "category": "Home Decor",
+    "name": "Purple White Long Crochet Cardigan",
+    "category": "Cardigans",
     "description": "Handmade crochet purple-white-long-crochet-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/purple-white-long-crochet-cardigan.jpg",
     "images": [
-      "assets/gallery/purple-white-long-crochet-cardigan.jpg",
-      "assets/gallery/table dsdsdsecor2.jpg"
+      "assets/gallery/purple-white-long-crochet-cardigan.jpg"
     ]
   },
-    {
+  {
     "id": 3200,
-    "name": "red-crochet-poncho",
-    "category": "Home Decor",
+    "name": "Red Crochet Poncho",
+    "category": "Accessories",
     "description": "Handmade crochet red-crochet-poncho.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/red-crochet-poncho.jpg",
     "images": [
-      "assets/gallery/red-crochet-poncho.jpg",
-      "assets/gallery/table decovvdvdr2.jpg"
+      "assets/gallery/red-crochet-poncho.jpg"
     ]
   },
-    {
+  {
     "id": 4890,
-    "name": "white-heart-detail-crochet-cardigan",
-    "category": "Home Decor",
+    "name": "White Heart Detail Crochet Cardigan",
+    "category": "Cardigans",
     "description": "Handmade crochet white-heart-detail-crochet-cardigan.",
     "price": 2300,
     "size": "Not specified",
     "yarn": "Not specified",
     "image": "assets/gallery/white-heart-detail-crochet-cardigan.jpg",
     "images": [
-      "assets/gallery/white-heart-detail-crochet-cardigan.jpg",
-      "assets/gallery/table decosssssssr2.jpg"
+      "assets/gallery/white-heart-detail-crochet-cardigan.jpg"
     ]
   }
 ];
