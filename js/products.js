@@ -6,8 +6,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet sweater.",
     "price": 2000,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "Polyester",
     "image": "assets/gallery/20261123_111408.jpg",
     "images": [
       "assets/gallery/20261123_111408.jpg",
@@ -20,8 +20,8 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet top.",
     "price": 3000,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_112847.jpg",
     "images": [
       "assets/gallery/20261123_112847.jpg"
@@ -33,8 +33,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet sweater.",
     "price": 3000,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_113445.jpg",
     "images": [
       "assets/gallery/20261123_113445.jpg"
@@ -46,8 +46,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet sweater.",
     "price": 3000,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_113846.jpg",
     "images": [
       "assets/gallery/20261123_113846.jpg",
@@ -60,8 +60,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet cardigan or outer layer.",
     "price": 3500,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_115301.jpg",
     "images": [
       "assets/gallery/20261123_115301.jpg",
@@ -74,8 +74,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet sweater.",
     "price": 4000,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_120342.jpg",
     "images": [
       "assets/gallery/20261123_120342.jpg",
@@ -88,8 +88,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet cardigan or outer layer.",
     "price": 4000,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_120724.jpg",
     "images": [
       "assets/gallery/20261123_120724.jpg",
@@ -104,8 +104,8 @@ const PRODUCTS = [
     "category": "Home Decor",
     "description": "Handmade crochet accessory.",
     "price": 3000,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_121422.jpg",
     "images": [
       "assets/gallery/20261123_121422.jpg"
@@ -117,8 +117,8 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet accessory.",
     "price": 1500,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_121656.jpg",
     "images": [
       "assets/gallery/20261123_121656.jpg"
@@ -130,8 +130,8 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet sweater.",
     "price": 1500,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_121748.jpg",
     "images": [
       "assets/gallery/20261123_121748.jpg"
@@ -143,8 +143,8 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet top.",
     "price": 900,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_121905.jpg",
     "images": [
       "assets/gallery/20261123_121905.jpg",
@@ -158,8 +158,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet cardigan or outer layer.",
     "price": 3500,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_122154.jpg",
     "images": [
       "assets/gallery/20261123_122154.jpg",
@@ -172,8 +172,8 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet cardigan or outer layer.",
     "price": 3500,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "L",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_122449.jpg",
     "images": [
       "assets/gallery/20261123_122449.jpg",
@@ -187,8 +187,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet cardigan or outer layer.",
     "price": 3800,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "XL",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_122707.jpg",
     "images": [
       "assets/gallery/20261123_122707.jpg",
@@ -202,7 +202,7 @@ const PRODUCTS = [
     "description": "Handmade crochet cardigan or outer layer.",
     "price": 7500,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_123104.jpg",
     "images": [
       "assets/gallery/20261123_123104.jpg",
@@ -216,7 +216,7 @@ const PRODUCTS = [
     "description": "Handmade crochet cardigan or outer layer.",
     "price": 6500,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_123758.jpg",
     "images": [
       "assets/gallery/20261123_123758.jpg",
@@ -230,7 +230,7 @@ const PRODUCTS = [
     "description": "Handmade crochet sweater.",
     "price": 5500,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_124007.jpg",
     "images": [
       "assets/gallery/20261123_124007.jpg",
@@ -244,7 +244,7 @@ const PRODUCTS = [
     "description": "Handmade crochet home decor.",
     "price": 5000,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_124459.jpg",
     "images": [
       "assets/gallery/20261123_124459.jpg",
@@ -258,7 +258,7 @@ const PRODUCTS = [
     "description": "Handmade crochet home decor.",
     "price": 1500,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_124625.jpg",
     "images": [
       "assets/gallery/20261123_124625.jpg"
@@ -271,7 +271,7 @@ const PRODUCTS = [
     "description": "Handmade crochet bag.",
     "price": 1500,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_124741.jpg",
     "images": [
       "assets/gallery/20261123_124741.jpg",
@@ -286,7 +286,7 @@ const PRODUCTS = [
     "description": "Handmade crochet bag.",
     "price": 1800,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_124852.jpg",
     "images": [
       "assets/gallery/20261123_124852.jpg",
@@ -300,7 +300,7 @@ const PRODUCTS = [
     "description": "Handmade crochet bag.",
     "price": 1800,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_125001.jpg",
     "images": [
       "assets/gallery/20261123_125001.jpg"
@@ -312,8 +312,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet sweater.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_125124.jpg",
     "images": [
       "assets/gallery/20261123_125124.jpg",
@@ -326,8 +326,8 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet top.",
     "price": 2000,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "polyester",
     "image": "assets/gallery/20261123_125306.jpg",
     "images": [
       "assets/gallery/20261123_125306.jpg",
@@ -340,8 +340,8 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet top.",
     "price": 2000,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "Acrylic",
     "image": "assets/gallery/20261123_125529.jpg",
     "images": [
       "assets/gallery/20261123_125529.jpg",
@@ -355,7 +355,7 @@ const PRODUCTS = [
     "description": "Handmade crochet home decor.",
     "price": 500,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "polyester",
     "image": "assets/gallery/circle table1.jpg",
     "images": [
       "assets/gallery/circle table1.jpg",
@@ -369,7 +369,7 @@ const PRODUCTS = [
     "description": "Handmade crochet accessory.",
     "price": 700,
     "size": "Not specified",
-    "yarn": "Not specified",
+    "yarn": "Acrylic",
     "image": "assets/gallery/scarf1.jpg",
     "images": [
       "assets/gallery/scarf1.jpg",
@@ -382,8 +382,8 @@ const PRODUCTS = [
     "category": "Home Decor",
     "description": "Handmade crochet home decor.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "One Size",
+    "yarn": "Acrylic",
     "image": "assets/gallery/table decor1.jpg",
     "images": [
       "assets/gallery/table decor1.jpg",
@@ -396,8 +396,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet black-button-front-crochet-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "Acrylic",
     "image": "assets/gallery/black-button-front-crochet-cardigan.jpg",
     "images": [
       "assets/gallery/black-button-front-crochet-cardigan.jpg"
@@ -409,8 +409,8 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet black-cream-checkered-crochet-vest.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "polyester",
     "image": "assets/gallery/black-cream-checkered-crochet-vest.jpg",
     "images": [
       "assets/gallery/black-cream-checkered-crochet-vest.jpg"
@@ -422,8 +422,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet black-gray-striped-crochet-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "XL",
+    "yarn": "Acrylic",
     "image": "assets/gallery/black-gray-striped-crochet-cardigan.jpg",
     "images": [
       "assets/gallery/black-gray-striped-crochet-cardigan.jpg"
@@ -435,8 +435,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet black-hooded-crochet-sweater.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "Acrylic",
     "image": "assets/gallery/black-hooded-crochet-sweater.jpg",
     "images": [
       "assets/gallery/black-hooded-crochet-sweater.jpg"
@@ -448,8 +448,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet black-long-sleeve-crochet-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "Acrylic",
     "image": "assets/gallery/black-long-sleeve-crochet-cardigan.jpg",
     "images": [
       "assets/gallery/black-long-sleeve-crochet-cardigan.jpg"
@@ -461,8 +461,8 @@ const PRODUCTS = [
     "category": "Accessories",
     "description": "Handmade crochet blue-baby-crochet-romper-and-hat-set.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "One Size",
+    "yarn": "polyester",
     "image": "assets/gallery/blue-baby-crochet-romper-and-hat-set.jpg",
     "images": [
       "assets/gallery/blue-baby-crochet-romper-and-hat-set.jpg"
@@ -474,8 +474,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet blue-heart-applique-crochet-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "polyester",
     "image": "assets/gallery/blue-heart-applique-crochet-cardigan.jpg",
     "images": [
       "assets/gallery/blue-heart-applique-crochet-cardigan.jpg"
@@ -487,8 +487,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet blue-textured-crochet-sweater.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "Acrylic",
     "image": "assets/gallery/blue-textured-crochet-sweater.jpg",
     "images": [
       "assets/gallery/blue-textured-crochet-sweater.jpg"
@@ -500,8 +500,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade brown-textured-crochet-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "Acrylic",
     "image": "assets/gallery/brown-textured-crochet-cardigan.webp",
     "images": [
       "assets/gallery/brown-textured-crochet-cardigan.webp"
@@ -513,7 +513,7 @@ const PRODUCTS = [
     "category": "Home Decor",
     "description": "Handmade brown-crochet-storage-basket.",
     "price": 2300,
-    "size": "Not specified",
+    "size": "Acrylic",
     "yarn": "Not specified",
     "image": "assets/gallery/1.jpg",
     "images": [
@@ -527,8 +527,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet burgundy-openwork-crochet-sweater.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "polyester",
     "image": "assets/gallery/burgundy-openwork-crochet-sweater.jpg",
     "images": [
       "assets/gallery/burgundy-openwork-crochet-sweater.jpg"
@@ -540,8 +540,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet cream-brown-baby-cardigan-with-headband.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "One Size",
+    "yarn": "Acrylic",
     "image": "assets/gallery/cream-brown-baby-cardigan-with-headband.jpg",
     "images": [
       "assets/gallery/cream-brown-baby-cardigan-with-headband.jpg"
@@ -553,8 +553,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet dark-brown-long-sleeve-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "XXL",
+    "yarn": "Acrylic",
     "image": "assets/gallery/dark-brown-long-sleeve-cardigan.jpg",
     "images": [
       "assets/gallery/dark-brown-long-sleeve-cardigan.jpg"
@@ -566,7 +566,7 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet lavender-short-sleeve-crochet-top.",
     "price": 2300,
-    "size": "Not specified",
+    "size": "m",
     "yarn": "Not specified",
     "image": "assets/gallery/lavender-short-sleeve-crochet-top.jpg",
     "images": [
@@ -579,8 +579,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet light-gray-hooded-crochet-sweater.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "Acrylic",
     "image": "assets/gallery/light-gray-hooded-crochet-sweater.jpg",
     "images": [
       "assets/gallery/light-gray-hooded-crochet-sweater.jpg"
@@ -592,8 +592,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet navy-blue-ribbed-crochet-sweater.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "L",
+    "yarn": "Acrylic",
     "image": "assets/gallery/navy-blue-ribbed-crochet-sweater.jpg",
     "images": [
       "assets/gallery/navy-blue-ribbed-crochet-sweater.jpg"
@@ -605,8 +605,8 @@ const PRODUCTS = [
     "category": "Tops",
     "description": "Handmade crochet olive-green-crochet-crop-top.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "One Size",
+    "yarn": "polyester",
     "image": "assets/gallery/olive-green-crochet-crop-top.jpg",
     "images": [
       "assets/gallery/olive-green-crochet-crop-top.jpg"
@@ -618,8 +618,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet periwinkle-blue-crochet-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "polyester",
     "image": "assets/gallery/periwinkle-blue-crochet-cardigan.jpg",
     "images": [
       "assets/gallery/periwinkle-blue-crochet-cardigan.jpg"
@@ -631,8 +631,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochetpink-blue-multicolor-crochet-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "polyester",
     "image": "assets/gallery/pink-blue-multicolor-crochet-cardigan.jpg",
     "images": [
       "assets/gallery/pink-blue-multicolor-crochet-cardigan.jpg"
@@ -644,8 +644,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet pink-burgundy-baby-crochet-sweater.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "One Size",
+    "yarn": "Acrylic",
     "image": "assets/gallery/pink-burgundy-baby-crochet-sweater.jpg",
     "images": [
       "assets/gallery/pink-burgundy-baby-crochet-sweater.jpg"
@@ -657,8 +657,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "Handmade crochet purple-multicolor-baby-crochet-sweater.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "One Size",
+    "yarn": "polyester",
     "image": "assets/gallery/purple-multicolor-baby-crochet-sweater.jpg",
     "images": [
       "assets/gallery/purple-multicolor-baby-crochet-sweater.jpg"
@@ -670,8 +670,8 @@ const PRODUCTS = [
     "category": "Sweaters",
     "description": "purple-pink-blue-baby-crochet-sweater.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "L",
+    "yarn": "Acrylic",
     "image": "assets/gallery/purple-pink-blue-baby-crochet-sweater.jpg",
     "images": [
       "assets/gallery/purple-pink-blue-baby-crochet-sweater.jpg"
@@ -683,8 +683,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet purple-white-long-crochet-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "Acrylic",
     "image": "assets/gallery/purple-white-long-crochet-cardigan.jpg",
     "images": [
       "assets/gallery/purple-white-long-crochet-cardigan.jpg"
@@ -696,8 +696,8 @@ const PRODUCTS = [
     "category": "Accessories",
     "description": "Handmade crochet red-crochet-poncho.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "M",
+    "yarn": "Acrylic",
     "image": "assets/gallery/red-crochet-poncho.jpg",
     "images": [
       "assets/gallery/red-crochet-poncho.jpg"
@@ -709,8 +709,8 @@ const PRODUCTS = [
     "category": "Cardigans",
     "description": "Handmade crochet white-heart-detail-crochet-cardigan.",
     "price": 2300,
-    "size": "Not specified",
-    "yarn": "Not specified",
+    "size": "S",
+    "yarn": "Acrylic",
     "image": "assets/gallery/white-heart-detail-crochet-cardigan.jpg",
     "images": [
       "assets/gallery/white-heart-detail-crochet-cardigan.jpg"
